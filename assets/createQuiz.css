@@ -1,0 +1,155 @@
+*{
+    margin-top: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 7px 20px;
+    color: #eee;
+    background-color: #999;
+    margin: 0;
+    border-radius: 20px;
+}
+
+h1{
+    font-size: 2rem;
+    margin: 0;
+}
+
+/* body */
+.container{
+    height: 100%;
+    margin: 100px 250px;
+    font-style: 1.2rem;
+    position: relative;
+}
+
+.cancle{
+    position: absolute;
+    right: 0;
+    background-color: #5a4ab6;
+    cursor: pointer;
+}
+
+.title{
+    color: #5a4ab6;
+    margin-bottom: 30px;
+}
+
+.form{
+    position: relative;
+}
+
+
+.top-form{
+    background-color: #eee;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 1.2rem;
+}
+
+#time,
+.top-form input,
+.quesItem input{
+    margin-bottom: 20px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid #5a4ab6;
+    width: 500px;
+    outline: none;
+    font-size: 1.2rem;
+}
+
+#time{
+    width: 50px;
+}
+
+.form{
+    margin-bottom: 300px;
+}
+
+.quesItem{
+    margin-top: 20px;
+    background-color: #eee;
+    padding:30px 40px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+    position: relative;
+}
+
+.deleteQues{
+    position: absolute;
+    bottom: 20px;
+    right: 25px;
+    background-color: #5a4ab6;
+    padding: 5px 25px;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.quesItem .ques{
+    width: 80%;
+}
+
+.ans{
+    padding: 0 30px;
+}
+
+.right-ans,
+.left-ans{
+    display: flex;
+    justify-content: space-between;
+}
+
+.rightAns input{
+    width: 20px;
+}
+
+.btnAddQues{
+    background-color: #5a4ab6;
+    color: white;
+    font-size: 2rem;
+    border:  none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+}
+
+.submit{
+    position: absolute;
+    background-color: #5a4ab6;
+    padding: 10px;
+    color: white;
+    border-radius: 20px;
+    bottom: -70px;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+    width: 100px;
+    border: none;
+    font-size: 1.2rem;
+}
+/* end body */
